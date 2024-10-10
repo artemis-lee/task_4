@@ -1,0 +1,74 @@
+body {
+    background-color: rgb(188, 231, 246);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.container {
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    gap: 15px;
+    font-size: 20px;
+    margin-top: 40px;
+}
+
+.icons {
+    display: flex;
+    align-items: right;
+    justify-content: right;
+    gap: 15px;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 55px;
+    color: black;
+}
+
+h2 {
+    color: rgb(44, 92, 174);
+    font-size: 33px;
+    font-weight: lighter;
+}
+
+button {
+    background-color: rgb(44, 92, 174);
+    color: white;
+    width: 150px;
+    height: 60px;
+    font-size: 25px;
+    border-radius: 20px;
+}
+
+.text {
+    position: absolute;               
+   top: 50%;                         
+   transform: translate(0, -50%);
+   padding-left: 5%;
+}
+
+.photo {
+ position: relative;
+ width: 700px;
+ height: 700px;;
+left: 60%;
+top: 150px;
+}
+
+p {
+    font-size: 25px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(83, 77, 77);
+    font-weight: bold;
+}
+
+.logo {
+    position: absolute;               
+    top: 2%;                         
+   height: 90px;
+   padding-left: 5%;
+
+}
